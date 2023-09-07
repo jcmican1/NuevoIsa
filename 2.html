@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+       <!-- 2. Elabore un algoritmo que calcule el sueldo anual de un empleado, teniendo presente que este recibe una bonificación fija mensual.   -->
+       let sueldoMensual = 0
+       let SueldoAnual = 0
+       let bonificacionMensual = 0
+
+       sueldoMensual = parseInt(prompt("Cual es tu sueldo"))
+
+       bonificacionMensual = parseInt(prompt("Cual es tu bonificacion mensual en total NADA de porcentaje, neto por favor")) 
+
+       SueldoAnual = (sueldoMensual * 12) + (bonificacionMensual*12)
+
+       alert(SueldoAnual)
+
+    </script>
+</body>
+
+</html>
