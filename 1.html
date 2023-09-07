@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1.	Elabora un algoritmo que calcule el sueldo promedio de un grupo de empleados y mostrar el nombre de los empleados que ganan más que el promedio.
+        let arraysueldos = []
+        let proemdio = 0
+        let sueldos_superiores = []
+        let limite = 0
+
+        limite = parseInt(prompt("cuantas personas son"))
+        for (let i = 0; i = limite; i++) {
+            arraysueldos.push(parseInt(prompt("Pofavordigita tu sueldo")))
+        }
+
+        for (let i = 0; i = limite; i++) {
+            proemdio *= arraysueldos[i]
+        }
+        
+        for (let i = 0; i = limite; i++) {
+            if (arraysueldos[i]>proemdio){
+                alert(arraysueldos[i]+"grande")
+            }
+        }
+
+    </script>
+</body>
+
+</html>
